@@ -1,0 +1,27 @@
+:root{--abc-green:#319b42;--abc-green-dark:#237a31;--abc-green-soft:#e8f6ea;--abc-red:#e42929;--abc-red-dark:#a71919;--abc-red-soft:#fdeaea}
+.shell>aside{background:linear-gradient(180deg,#1f76b5 0%,#1769a5 55%,#10578f 100%)}
+nav button{color:#eef8ff}
+nav button.active,nav button:hover{background:#3188c8;color:#fff}
+nav label{color:#bfe3ed}
+.account{border-top-color:rgba(255,255,255,.28)}
+.account small,.account button{color:#d8edf8}
+nav button.active,nav button:hover{box-shadow:inset 4px 0 var(--abc-red)}
+nav button.active svg{color:#ffb0b0}
+.shell header em{background:var(--abc-green-soft);color:var(--abc-green-dark);border:1px solid #bfe3c5}
+.metric:nth-child(2)>svg{background:var(--abc-green-soft);color:var(--abc-green-dark)}
+.metric:nth-child(3)>svg{background:var(--abc-red-soft);color:var(--abc-red-dark)}
+.add,.confirmimport,.image-save-row button{background:linear-gradient(135deg,var(--abc-green),#41ad52);box-shadow:0 5px 14px rgba(49,155,66,.22)}
+.add:hover,.confirmimport:hover,.image-save-row button:hover{background:var(--abc-green-dark)}
+.inventoryform .add{background:var(--abc-green);color:#fff}
+.farm>span,.user>em.on,.user .status.on,.saved-image-heading,.image-status{color:var(--abc-green-dark)}
+.farm>span,.user>em.on,.user .status.on{background:var(--abc-green-soft);border:1px solid #bfe3c5}
+.sourceactive input,.reviewrow input[type=checkbox]{accent-color:var(--abc-green)}
+.warning,.importstatus{background:var(--abc-red-soft);color:var(--abc-red-dark);border-left:4px solid var(--abc-red)}
+.sectiontitle>span{background:var(--abc-red-soft);color:var(--abc-red-dark);border:1px solid #efb1b1}
+.invrow .low{display:inline-flex;width:max-content;background:var(--abc-red-soft);color:var(--abc-red-dark);border:1px solid #efb1b1;border-radius:12px;padding:4px 7px}
+.filter button.picked{box-shadow:inset 0 -2px var(--abc-red)}
+.inventoryrecord:nth-child(odd){border-left-color:var(--abc-green)!important}
+.inventoryrecord:nth-child(odd):hover{border-color:#a9d7b1!important}
+.owncompare.below{background:var(--abc-green-soft);border-color:#b9dfc0}
+.owncompare.missing{background:var(--abc-red-soft);border-left-color:var(--abc-red);color:var(--abc-red-dark)}
+.saved-image-collapse>summary:after,.manual-invoice-fields>summary:after,.invoice-details>summary:after{color:var(--abc-red-dark)}

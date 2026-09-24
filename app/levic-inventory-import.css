@@ -1,0 +1,16 @@
+.levic-import .importintro p{font-size:10px}
+.invoice-table{overflow-x:auto;margin-top:14px;border:1px solid #dce7f1;border-radius:9px}
+.invoice-row{min-width:1850px;display:grid;grid-template-columns:60px 85px 260px 100px 110px 100px 85px 90px 70px 115px 85px 85px 85px 85px 90px 105px 95px;gap:6px;align-items:center;padding:7px 9px;border-top:1px solid #e8eef4;background:#fff}
+.invoice-row input:not([type=checkbox]){width:100%;border:1px solid #d5e1ec;border-radius:6px;padding:8px 7px;color:#173654;font-size:10px}
+.invoice-row input[type=checkbox]{accent-color:#0b4e91}
+.invoice-labels{position:sticky;top:0;z-index:1;border-top:0;background:#e8eef5;color:#294c6b;font-size:8px;font-weight:bold;letter-spacing:.2px}
+.invoice-labels span{white-space:normal;line-height:1.25}
+@media(max-width:700px){.invoice-review .reviewhead{align-items:flex-start;flex-direction:column}.invoice-review .confirmimport{width:100%;justify-content:center}}
+.inventoryrecord{border-top:1px solid var(--line)}
+.inventoryrecord .invrow{border-top:0}
+.invoice-details{margin:-4px 4px 10px;background:#f5f9fd;border-radius:8px;padding:8px 12px}
+.invoice-details summary{cursor:pointer;color:#0b4e91;font-size:9px;font-weight:bold}
+.invoice-details>div{display:grid;grid-template-columns:repeat(4,minmax(120px,1fr));gap:10px;margin-top:10px}
+.invoice-details span{font-size:9px;color:#294c6b}
+.invoice-details span b{display:block;color:#71849a;font-size:7px;text-transform:uppercase;margin-bottom:3px}
+@media(max-width:800px){.invoice-details>div{grid-template-columns:repeat(2,minmax(110px,1fr))}}

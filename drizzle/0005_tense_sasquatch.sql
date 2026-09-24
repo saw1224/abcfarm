@@ -1,0 +1,1 @@
+ALTER TABLE `inventory` ADD `entry_date` text;

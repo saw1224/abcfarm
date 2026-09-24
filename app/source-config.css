@@ -1,0 +1,21 @@
+.sourcemessage{background:#e9f3ff;color:#0b4e91;border-radius:8px;padding:10px 12px;font-size:10px}
+.farm.disabled{opacity:.7}
+.farm>span.off{background:#eef1f4;color:#68798a}
+.sourceurl{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sourcemodal{position:fixed;inset:0;z-index:50;background:#082f6070;display:grid;place-items:center;padding:20px}
+.sourcemodal form{width:min(520px,100%);background:#fff;border-radius:16px;padding:24px;box-shadow:0 24px 70px #062c5950}
+.sourcehead{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:18px}
+.sourcehead small{color:#0b4e91;font-size:9px;font-weight:bold;letter-spacing:1px}
+.sourcehead h2{font-size:19px;margin:5px 0}
+.sourcehead>button{border:0;background:#edf3f8;color:#49667e;width:34px;height:34px;border-radius:50%;display:grid;place-items:center}
+.sourcehead svg{width:16px}
+.sourcemodal form>label{display:block;font-size:10px;font-weight:bold;margin:13px 0}
+.sourcemodal form>label>input:not([type=checkbox]){display:block;width:100%;border:1px solid #d5e2ee;border-radius:8px;padding:11px;margin-top:6px;color:#173654}
+.sourcemodal label>small{display:block;color:#77899b;font-weight:normal;font-size:8px;margin-top:5px}
+.sourceactive{display:flex!important;gap:10px;align-items:flex-start;background:#f2f7fc;border-radius:9px;padding:12px}
+.sourceactive input{accent-color:#0b4e91;margin-top:2px}
+.sourceactive span b,.sourceactive span small{display:block}
+.sourceactive span small{font-weight:normal;color:#71849a;font-size:8px;margin-top:3px}
+.sourceactions{display:flex;justify-content:flex-end;gap:8px;margin-top:20px}
+.sourceactions>button{border:1px solid #d5e2ee;background:#fff;color:#48637b;border-radius:8px;padding:10px 13px;font-size:9px;font-weight:bold}
+.sourceactions .add{float:none;margin:0;border:0;color:#fff;background:#0b4e91}

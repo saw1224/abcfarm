@@ -1,0 +1,55 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1789497874607,
+      "tag": "0000_bizarre_doctor_octopus",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1789614657873,
+      "tag": "0001_silent_sleeper",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1789615290909,
+      "tag": "0002_yellow_wolfsbane",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1789764573926,
+      "tag": "0003_powerful_white_queen",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1789767093878,
+      "tag": "0004_high_robin_chapel",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1789768231376,
+      "tag": "0005_tense_sasquatch",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1789771921017,
+      "tag": "0006_jazzy_vision",
+      "breakpoints": true
+    }
+  ]
+}
